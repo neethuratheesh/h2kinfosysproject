@@ -15,6 +15,7 @@ public class Customer {
 	public void validateZipCode(int zipCode) {
 		String stringZipCode = String.valueOf(zipCode);
 		int length = stringZipCode.length();
+		
 		switch (length)
 		{
 		case 1:{
