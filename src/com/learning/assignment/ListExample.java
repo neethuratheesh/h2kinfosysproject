@@ -20,10 +20,7 @@ public class ListExample {
 		String element = arrayList.get(0);
 		//System.out.println(element);
 		List newList = arrayList.subList(0,3);
-		ArrayList<String> subList = new ArrayList<String>();
-		subList.add("A");
-		subList.add("B");
-		subList.add("D");
+		ArrayList<String> subList = new ArrayList<String>(newList);
 		System.out.println("Second ArrayList : :" +subList);
 		
 		//Iteration 
@@ -61,9 +58,6 @@ public class ListExample {
 		
 		//containsAll
 		System.out.println("Calling ContainsAll Method!!");
-		arrayList.add("C");
-		arrayList.add("J");
-		System.out.println(arrayList);
 		boolean checkElements = arrayList.containsAll(subList);
 		if (checkElements){
 			System.out.println("Contents Found");
