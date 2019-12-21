@@ -22,7 +22,7 @@ public class SendEmail extends Authenticator {
 		// TODO Auto-generated method stub
 		String recipient = "n.ratheesh2010@gmail.com";
 		String sender = "nichuspalace@gmail.com";
-		String password = "kichuchakkudu";
+		String password = "********";
 		
 		Properties properties = System.getProperties();
 		
